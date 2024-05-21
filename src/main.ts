@@ -88,6 +88,7 @@ function createPrompt(file: File, chunk: Chunk, prDetails: PRDetails): string {
 - IMPORTANT: NEVER suggest adding comments to the code.
 - Do not repeat the same comment multiple times after the first occurrence after a new review request.
 - Do not repeat the same comment when the same code is present in multiple files, instead use one comment for all occurrences.
+- Write 'OK' as the review comment if there is nothing to improve.
 
 Review the following code diff in the file "${
     file.to

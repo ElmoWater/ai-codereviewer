@@ -86,7 +86,7 @@ function createPrompt(file: File, chunk: Chunk, prDetails: PRDetails): string {
 - Write the comment in GitHub Markdown format.
 - Use the given description only for the overall context and only comment the code.
 - IMPORTANT: NEVER suggest adding comments to the code.
-- Only comment once on an issue that shows up multple times in the diff, DO NOT repeat the same comment.
+- DO NOT repeat a comment if the same issue is present in multiple lines.
 
 Review the following code diff in the file "${
     file.to
